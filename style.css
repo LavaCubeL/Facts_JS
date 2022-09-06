@@ -1,0 +1,14 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(rgba(19,18,23,255),Black); 
+}
+#colorTxt{
+color: white;
+ text-align: center; 
+ line-height: 600px;
+}
+#FactBox{
+    display: inline-block;
+    padding:10px 25px; 
+   text-align: right;
+}
