@@ -6,9 +6,19 @@ html{
 color: white;
  text-align: center; 
  line-height: 600px;
+ font-family:  monospace;
 }
 #FactBox{
     display: inline-block;
-    padding:10px 25px; 
-   text-align: right;
+    font-family: arial;
+  font-size: 24px;
+  margin:50px;
+justify-content: right;
+
+} 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
