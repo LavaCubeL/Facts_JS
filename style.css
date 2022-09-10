@@ -2,24 +2,45 @@ html{
     height: 100%;
     background-image: linear-gradient(rgba(19,18,23,255),Black); 
 }
+.container-2{
+       position: relative; 
+  
+    top:200px;   
+}
 #colorTxt{
 color: white;
  text-align: center; 
- line-height: 600px;
+ line-height: 100px;
  font-family:  monospace;
+
+   
 }
 #FactBox{
-    display: inline-block;
+    /* display: inline-block; */
+    background-color: gray;
+    display: flex;
     font-family: arial;
   font-size: 24px;
   margin:50px;
 justify-content: right;
+height:45px;
+width:350px;
 
 } 
-.container{
+ .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
+   
+    
+} 
 
-}
+.container-3{
+    border-color: red;
+    width: 300px;
+	height: 200px;
+    
+} 
+
 /* Also choose a certain layout when formatting websites */
