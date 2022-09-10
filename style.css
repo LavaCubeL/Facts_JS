@@ -16,31 +16,74 @@ color: white;
    
 }
 #FactBox{
+    font-family:monospace;
     /* display: inline-block; */
-    background-color: gray;
+    background-color:rgba(36,35,43,255);
+    border-color:rgba(36,35,43,255);
     display: flex;
     font-family: arial;
   font-size: 24px;
   margin:50px;
 justify-content: right;
-height:45px;
-width:350px;
+height:63px;
+width:450px;
 
 } 
  .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
+    margin: -5px;
    
     
 } 
 
 .container-3{
-    border-color: red;
-    width: 300px;
-	height: 200px;
+     display: flex; 
+    position: relative;
+    top: -125px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36,35,43,255);
+    border-color: rgba(36,35,43,255); 
+     width: 475px;
+    
+	/* height: 200px;  */
+   margin: 0 auto;
+  
     
 } 
+#generator-box{
+    font-family:monospace;
+     display: flex; 
+     background-color: rgba(36,35,43,255);
+    border-color: rgba(36,35,43,255); 
+      width: 500px; 
+	height: 400px; 
+      justify-content: center; 
+     align-items: center;  
+  
+}
+ 
+ #button-style{
+    font-family:monospace;
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    position: relative; 
+     justify-content: center;
+    align-items: center;
+    right: 45px; 
+    top: 150px;
+     background-color:lightgreen; 
+    width: 2000px;
+    height: 60px;
 
+}  
+#button-style:hover{
+    background-color: rgba(36,35,43,255);
+    color:lightgreen ;
+    border-color: lightgreen;
+}
 /* Also choose a certain layout when formatting websites */
