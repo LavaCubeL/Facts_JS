@@ -16,15 +16,17 @@ color: white;
    
 }
 #FactBox{
+  
     font-family:monospace;
+    color: white;
     /* display: inline-block; */
     background-color:rgba(36,35,43,255);
     border-color:rgba(36,35,43,255);
-    display: flex;
+    /* display: flex; */
     font-family: arial;
   font-size: 24px;
-  margin:50px;
-justify-content: right;
+   margin:50px; 
+  justify-content: right;  
 height:63px;
 width:450px;
 
@@ -89,5 +91,8 @@ width:450px;
 
 #h2-1color{
 color: white;
+position: relative;
+top: -135px;
+right: -45px;
 }
 /* Also choose a certain layout when formatting websites */
