@@ -27,7 +27,8 @@ color: white;
   font-size: 24px;
    margin:50px; 
   justify-content: right;  
-height:63px;
+/* height:63px; */
+height: 73px;
 width:450px;
 
 } 
@@ -61,7 +62,7 @@ width:450px;
      display: flex; 
      background-color: rgba(36,35,43,255);
     border-color: rgba(36,35,43,255); 
-      width: 500px; 
+      width: 50em; 
 	height: 400px; 
       justify-content: center; 
      align-items: center;  
@@ -94,5 +95,9 @@ color: white;
 position: relative;
 top: -135px;
 right: -45px;
+
 }
+/* #testCheck{
+    color:lightgreen ;
+} */
 /* Also choose a certain layout when formatting websites */
